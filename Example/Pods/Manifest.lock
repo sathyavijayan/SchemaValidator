@@ -1,0 +1,14 @@
+PODS:
+  - SchemaValidator (0.1.0)
+
+DEPENDENCIES:
+  - SchemaValidator (from `../`)
+
+EXTERNAL SOURCES:
+  SchemaValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SchemaValidator: 8c8ccd30dcb2f72c06d57d0ee93fbcbb056f7e58
+
+COCOAPODS: 0.36.3

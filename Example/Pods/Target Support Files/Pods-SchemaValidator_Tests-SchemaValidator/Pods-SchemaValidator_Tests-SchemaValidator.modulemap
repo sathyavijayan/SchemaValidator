@@ -1,0 +1,6 @@
+framework module SchemaValidator {
+  umbrella header "Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
