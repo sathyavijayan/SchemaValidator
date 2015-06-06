@@ -31,6 +31,8 @@ public let SchemaValidatorErrorDomain = "SchemaValidator"
 Utility to validate Dictionaries, specifically JSON like objects using a Schema. 
 */
 public class SchemaValidator {
+    
+    public static var messageProvider:(forKey: String) -> String = ValidationMessages.message
             
     class func applyValidators(obj: AnyObject?, validators: [Validator]) -> [String]? {
         

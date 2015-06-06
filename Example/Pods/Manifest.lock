@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SchemaValidator: 8c8ccd30dcb2f72c06d57d0ee93fbcbb056f7e58
+  SchemaValidator: 55264769672611dfde6358358fdc8e720ef809cd
 
 COCOAPODS: 0.36.3

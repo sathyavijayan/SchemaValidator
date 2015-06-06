@@ -23,13 +23,11 @@ class TestSchemaValidator: XCTestCase {
         super.tearDown()
     }
     
+    /**
+    TODO: Add more tests.
+    */
     
     func testValidate() {
-        /**
-        Test the following:
-        1. Validate valid object against schema
-        2.Validate valid object against schema
-        */
         
         let schema:Schema = [
             "timestamp": [V.Present, V.Integer],
@@ -38,6 +36,9 @@ class TestSchemaValidator: XCTestCase {
                 "email" : [V.Email],
                 "age"   : [V.GreaterOrEqual(18)],
                 "ni_number": [V.Size(6)]
+            ],
+            "devices": [
+                "UDID": [V.Present]
             ]
         ]
         
@@ -50,7 +51,7 @@ class TestSchemaValidator: XCTestCase {
                 "ni_number": "ABCDEF"
             ],
             "devices": [
-                ["name": "iPhone"],
+                ["name": "iPhone", "UDID": "YYY"],
                 ["name": "iPad", "UDID": "XYX"]
             ]
         ]
@@ -63,5 +64,13 @@ class TestSchemaValidator: XCTestCase {
         user["userInfo"] = userInfo
         var err1:NSError? = V.validate(schema, object: user)
         XCTAssertNil(err1, "Validation should succeed for correct object")
+    }
+    
+    func testMessages() {
+        SchemaValidator.messageProvider = {(forKey:String) -> String in
+            return "Error"
+        }
+        
+        XCTAssertEqual(V.Equals(5)(6).1!, "Error 5.", "Replacing messageProvider should replace the error message")
     }
 }

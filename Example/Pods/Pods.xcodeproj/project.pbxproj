@@ -7,229 +7,241 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099F8D8DAC5423871F8FCC57 /* SchemaValidator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D683444948CAF25157193664 /* SchemaValidator.bundle */; };
-		194C94982DCC3DEE08914D91 /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D67DC99CD745E51889127DEA /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m */; };
-		382C8ADACA15B72AE8BFBC49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D940154C8A7DEBD481709EF /* Foundation.framework */; };
-		38F7698296A3FF5890DEAC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D940154C8A7DEBD481709EF /* Foundation.framework */; };
-		9F08BFA23790D38BB2C88C1F /* Pods-SchemaValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C874E5738D3274D428EDFA5E /* Pods-SchemaValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A598D691256669DDAAA376B7 /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF14CCFD9177B17785EAF6E /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C34C449D4DDB83C887766C93 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F180710FAC600628776478 /* ReplaceMe.swift */; };
-		DE8FC9F2D40D5C00A9DDF427 /* Pods-SchemaValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BEB63FDAFFF6C9BCF41DBD /* Pods-SchemaValidator_Tests-dummy.m */; };
+		15C5A4A2CAE078D394E0BEAE /* Pods-SchemaValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 254BE2CD0430E5CA1E8EF056 /* Pods-SchemaValidator_Tests-dummy.m */; };
+		221F2A35123101C459C2AFA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2EF245071F37C67FDD2E5 /* Foundation.framework */; };
+		379AE5236ACA325CD6630FB7 /* Pods-SchemaValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A63EB2A08D934EE010552D /* Pods-SchemaValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD1E971BF40B32113A7CE73 /* SchemaValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4AE41502F996DA261AB05 /* SchemaValidator.swift */; };
+		4689DCCAFD9CEBC97D444D50 /* ValidationMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC129B1F078498A1DA1251F /* ValidationMessages.swift */; };
+		4E34E27E36D35EB0C875E6B5 /* SchemaValidator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CF778151C270569016137FD /* SchemaValidator.bundle */; };
+		5AFDECB4C9002D03607A63DF /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A724C065D7735FDAA96AA2BA /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m */; };
+		82C571ADCA1CC2726B0E6118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F2EF245071F37C67FDD2E5 /* Foundation.framework */; };
+		98EDDD0474BC795BC90AB15B /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A9AA8E662C1145FB331E21 /* ValidationRule.swift */; };
+		AD3996F363E1BA8A3ABDD3C2 /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91617DE9F04611CA4B911273 /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E432ABA2DADE72F35000201B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCC50E14D5C11B33F2BB445 /* Utils.swift */; };
+		F8B7967D7D39652F0C2935D6 /* DefaultValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0FEB65BFDEB4F25DDB5A5C /* DefaultValidators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E43129392B5A32007674EAC /* PBXContainerItemProxy */ = {
+		210A2C984766F1EE0F50AFB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 721E274F2AFDD8A9D66F5B89 /* Project object */;
+			containerPortal = D80B73DADF8AAAB690D96642 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9F9804E54499947258FD15A5;
-			remoteInfo = "Pods-SchemaValidator_Tests-SchemaValidator";
-		};
-		2DA3FD234B510F784B88CE54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 721E274F2AFDD8A9D66F5B89 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 54A40D1D526EC19FB36FAF7E;
+			remoteGlobalIDString = 1968FC19E620951066086A89;
 			remoteInfo = "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator";
+		};
+		F8A5BC8C17531A85B38842FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80B73DADF8AAAB690D96642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6C291DAFDA84A7881D2C0B;
+			remoteInfo = "Pods-SchemaValidator_Tests-SchemaValidator";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045E227317D23057F5EDC360 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D940154C8A7DEBD481709EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0FD14AAF4E3C759D653B59BA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		15690AF2CF1E19E6BB9FB35E /* Pods-SchemaValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SchemaValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DA8A58DAAABFA195F702CAD /* Pods-SchemaValidator_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-environment.h"; sourceTree = "<group>"; };
-		1F4AD8A4ED69DCBD4ADBF0F1 /* Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch"; sourceTree = "<group>"; };
-		205875B245BD5C50A8FC2871 /* Pods-SchemaValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchemaValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2965A0844EBFD46EE7F1FD89 /* Pods-SchemaValidator_Tests-SchemaValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SchemaValidator_Tests-SchemaValidator.modulemap"; sourceTree = "<group>"; };
-		591D5C16B8175ACE427C6D15 /* Pods-SchemaValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SchemaValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6634AA09901708760853B84D /* SchemaValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SchemaValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BEB63FDAFFF6C9BCF41DBD /* Pods-SchemaValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SchemaValidator_Tests-dummy.m"; sourceTree = "<group>"; };
-		6EF9CD778508880FF775F5BC /* Pods-SchemaValidator_Tests-SchemaValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests-SchemaValidator.xcconfig"; sourceTree = "<group>"; };
-		7D206EA72DEE831515650A6D /* Pods-SchemaValidator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchemaValidator_Tests-resources.sh"; sourceTree = "<group>"; };
-		83E52A7810BDE4389B0C083B /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig"; sourceTree = "<group>"; };
-		94D53F5EE6D886402DF8661A /* Pods-SchemaValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SchemaValidator_Tests.modulemap"; sourceTree = "<group>"; };
-		9B16B118D06C9C05A26DCB66 /* Pods-SchemaValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CF14CCFD9177B17785EAF6E /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h"; sourceTree = "<group>"; };
-		BBC782936CE4EC2B3B852B6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C539EA28F5CB605443253685 /* Pods_SchemaValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchemaValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C874E5738D3274D428EDFA5E /* Pods-SchemaValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D67DC99CD745E51889127DEA /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SchemaValidator_Tests-SchemaValidator-dummy.m"; sourceTree = "<group>"; };
-		D683444948CAF25157193664 /* SchemaValidator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchemaValidator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9F180710FAC600628776478 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		F29AFAF7150F7CCDFC74F894 /* Pods-SchemaValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		254BE2CD0430E5CA1E8EF056 /* Pods-SchemaValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SchemaValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		27A63EB2A08D934EE010552D /* Pods-SchemaValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		36F2EF245071F37C67FDD2E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B1F783CC5311D92D0D0A731 /* Pods-SchemaValidator_Tests-SchemaValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests-SchemaValidator.xcconfig"; sourceTree = "<group>"; };
+		5CF778151C270569016137FD /* SchemaValidator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchemaValidator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE9B15F4607203691B58BC3 /* Pods-SchemaValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		70E107CD6E881BED33C18F8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A56691BF14B86149B48E63 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		808DF68BF50018D294EFEA01 /* SchemaValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SchemaValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9F0655019FA04BD7E5CC35 /* Pods-SchemaValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8D858B6F61530FFA0EFCB7A2 /* Pods-SchemaValidator_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-environment.h"; sourceTree = "<group>"; };
+		8E9EABA812107DF5E9DE4F5F /* Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch"; sourceTree = "<group>"; };
+		91617DE9F04611CA4B911273 /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h"; sourceTree = "<group>"; };
+		A6BFB0C41AE4215210F9AC0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A724C065D7735FDAA96AA2BA /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SchemaValidator_Tests-SchemaValidator-dummy.m"; sourceTree = "<group>"; };
+		AEC129B1F078498A1DA1251F /* ValidationMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidationMessages.swift; sourceTree = "<group>"; };
+		AFB9BF757DD0D2DB6E131E75 /* Pods-SchemaValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SchemaValidator_Tests.modulemap"; sourceTree = "<group>"; };
+		B99B8FAD2D8A42E828B5780D /* Pods-SchemaValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SchemaValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C32056B62F563730A219678D /* Pods-SchemaValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchemaValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DE0FEB65BFDEB4F25DDB5A5C /* DefaultValidators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultValidators.swift; sourceTree = "<group>"; };
+		E0A9AA8E662C1145FB331E21 /* ValidationRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
+		E89ACD44A628BEFC83F6278F /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig"; sourceTree = "<group>"; };
+		EDCC50E14D5C11B33F2BB445 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F23C87065F2189803F299E3B /* Pods_SchemaValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchemaValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B44878DA3930EF9BF15C5A /* Pods-SchemaValidator_Tests-SchemaValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SchemaValidator_Tests-SchemaValidator.modulemap"; sourceTree = "<group>"; };
+		FAD4AE41502F996DA261AB05 /* SchemaValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SchemaValidator.swift; sourceTree = "<group>"; };
+		FB9B590DECC3A6EED31D2970 /* Pods-SchemaValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SchemaValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBBF9D939F8C8C095DE5B989 /* Pods-SchemaValidator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SchemaValidator_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6545E7BBE0F7232E4CDF0925 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38F7698296A3FF5890DEAC47 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B6349787F3B10637BBF78E5 /* Frameworks */ = {
+		4078CB39639DF9F644E70263 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95187B70A294A4F97D0AF3DA /* Frameworks */ = {
+		89C38B9BDA4D6CA51939209A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382C8ADACA15B72AE8BFBC49 /* Foundation.framework in Frameworks */,
+				221F2A35123101C459C2AFA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9BD03B8C43460BFFDD46FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C571ADCA1CC2726B0E6118 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22816C8366499D9F8FC7BAE8 /* Pods-SchemaValidator_Tests */ = {
+		0D53119C19C4919A0D102B5E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				045E227317D23057F5EDC360 /* Info.plist */,
-				94D53F5EE6D886402DF8661A /* Pods-SchemaValidator_Tests.modulemap */,
-				591D5C16B8175ACE427C6D15 /* Pods-SchemaValidator_Tests-acknowledgements.markdown */,
-				15690AF2CF1E19E6BB9FB35E /* Pods-SchemaValidator_Tests-acknowledgements.plist */,
-				66BEB63FDAFFF6C9BCF41DBD /* Pods-SchemaValidator_Tests-dummy.m */,
-				1DA8A58DAAABFA195F702CAD /* Pods-SchemaValidator_Tests-environment.h */,
-				205875B245BD5C50A8FC2871 /* Pods-SchemaValidator_Tests-frameworks.sh */,
-				7D206EA72DEE831515650A6D /* Pods-SchemaValidator_Tests-resources.sh */,
-				C874E5738D3274D428EDFA5E /* Pods-SchemaValidator_Tests-umbrella.h */,
-				9B16B118D06C9C05A26DCB66 /* Pods-SchemaValidator_Tests.debug.xcconfig */,
-				F29AFAF7150F7CCDFC74F894 /* Pods-SchemaValidator_Tests.release.xcconfig */,
+				B1D50620D930F7D72516CCF1 /* Classes */,
 			);
-			name = "Pods-SchemaValidator_Tests";
-			path = "Target Support Files/Pods-SchemaValidator_Tests";
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		3B07D440F5CBAAD6BEF356C3 /* Targets Support Files */ = {
+		1AF38C6100C3C803070751CA = {
 			isa = PBXGroup;
 			children = (
-				22816C8366499D9F8FC7BAE8 /* Pods-SchemaValidator_Tests */,
+				79A56691BF14B86149B48E63 /* Podfile */,
+				1D6C88A287F39C4BADA33694 /* Development Pods */,
+				B6B09ADC1BD3BD5027255D29 /* Frameworks */,
+				6451D569C2DAD7F6D800D27F /* Products */,
+				64DF3609701050FD262D9633 /* Targets Support Files */,
 			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		754A2762E712172025AA7F14 /* Products */ = {
+		1D6C88A287F39C4BADA33694 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C539EA28F5CB605443253685 /* Pods_SchemaValidator_Tests.framework */,
-				D683444948CAF25157193664 /* SchemaValidator.bundle */,
-				6634AA09901708760853B84D /* SchemaValidator.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		78B86A98FE4A1E3284545DDE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AEAB1472F5CF168C0AE3E698 /* SchemaValidator */,
+				F90A74251CBBEDD8EDA8AD91 /* SchemaValidator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9F1E41A6E4C01F3AC5B56EE1 /* Support Files */ = {
+		6451D569C2DAD7F6D800D27F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBC782936CE4EC2B3B852B6E /* Info.plist */,
-				2965A0844EBFD46EE7F1FD89 /* Pods-SchemaValidator_Tests-SchemaValidator.modulemap */,
-				6EF9CD778508880FF775F5BC /* Pods-SchemaValidator_Tests-SchemaValidator.xcconfig */,
-				83E52A7810BDE4389B0C083B /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */,
-				D67DC99CD745E51889127DEA /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m */,
-				1F4AD8A4ED69DCBD4ADBF0F1 /* Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch */,
-				9CF14CCFD9177B17785EAF6E /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h */,
+				F23C87065F2189803F299E3B /* Pods_SchemaValidator_Tests.framework */,
+				5CF778151C270569016137FD /* SchemaValidator.bundle */,
+				808DF68BF50018D294EFEA01 /* SchemaValidator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64DF3609701050FD262D9633 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46171EB4483035800A64EB3 /* Pods-SchemaValidator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A33F41082ACF16FA10794376 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70E107CD6E881BED33C18F8B /* Info.plist */,
+				F6B44878DA3930EF9BF15C5A /* Pods-SchemaValidator_Tests-SchemaValidator.modulemap */,
+				4B1F783CC5311D92D0D0A731 /* Pods-SchemaValidator_Tests-SchemaValidator.xcconfig */,
+				E89ACD44A628BEFC83F6278F /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */,
+				A724C065D7735FDAA96AA2BA /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m */,
+				8E9EABA812107DF5E9DE4F5F /* Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch */,
+				91617DE9F04611CA4B911273 /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator";
 			sourceTree = "<group>";
 		};
-		A9CD481848432EAC382AFDD6 /* Classes */ = {
+		B1D50620D930F7D72516CCF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D9F180710FAC600628776478 /* ReplaceMe.swift */,
+				DE0FEB65BFDEB4F25DDB5A5C /* DefaultValidators.swift */,
+				FAD4AE41502F996DA261AB05 /* SchemaValidator.swift */,
+				EDCC50E14D5C11B33F2BB445 /* Utils.swift */,
+				AEC129B1F078498A1DA1251F /* ValidationMessages.swift */,
+				E0A9AA8E662C1145FB331E21 /* ValidationRule.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		AE4194676CE6B133F960748A /* Pod */ = {
+		B6B09ADC1BD3BD5027255D29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9CD481848432EAC382AFDD6 /* Classes */,
+				CE1D3AD10029C3733653266F /* iOS */,
 			);
-			path = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AEAB1472F5CF168C0AE3E698 /* SchemaValidator */ = {
+		CE1D3AD10029C3733653266F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE4194676CE6B133F960748A /* Pod */,
-				9F1E41A6E4C01F3AC5B56EE1 /* Support Files */,
+				36F2EF245071F37C67FDD2E5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E46171EB4483035800A64EB3 /* Pods-SchemaValidator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6BFB0C41AE4215210F9AC0F /* Info.plist */,
+				AFB9BF757DD0D2DB6E131E75 /* Pods-SchemaValidator_Tests.modulemap */,
+				B99B8FAD2D8A42E828B5780D /* Pods-SchemaValidator_Tests-acknowledgements.markdown */,
+				FB9B590DECC3A6EED31D2970 /* Pods-SchemaValidator_Tests-acknowledgements.plist */,
+				254BE2CD0430E5CA1E8EF056 /* Pods-SchemaValidator_Tests-dummy.m */,
+				8D858B6F61530FFA0EFCB7A2 /* Pods-SchemaValidator_Tests-environment.h */,
+				C32056B62F563730A219678D /* Pods-SchemaValidator_Tests-frameworks.sh */,
+				FBBF9D939F8C8C095DE5B989 /* Pods-SchemaValidator_Tests-resources.sh */,
+				27A63EB2A08D934EE010552D /* Pods-SchemaValidator_Tests-umbrella.h */,
+				5EE9B15F4607203691B58BC3 /* Pods-SchemaValidator_Tests.debug.xcconfig */,
+				8C9F0655019FA04BD7E5CC35 /* Pods-SchemaValidator_Tests.release.xcconfig */,
+			);
+			name = "Pods-SchemaValidator_Tests";
+			path = "Target Support Files/Pods-SchemaValidator_Tests";
+			sourceTree = "<group>";
+		};
+		F90A74251CBBEDD8EDA8AD91 /* SchemaValidator */ = {
+			isa = PBXGroup;
+			children = (
+				0D53119C19C4919A0D102B5E /* Pod */,
+				A33F41082ACF16FA10794376 /* Support Files */,
 			);
 			name = SchemaValidator;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C552D333E69E4993970AC677 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D63BEE38B6B4EF3413C21DC0 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D30F8696365EEC8350043606 = {
-			isa = PBXGroup;
-			children = (
-				0FD14AAF4E3C759D653B59BA /* Podfile */,
-				78B86A98FE4A1E3284545DDE /* Development Pods */,
-				C552D333E69E4993970AC677 /* Frameworks */,
-				754A2762E712172025AA7F14 /* Products */,
-				3B07D440F5CBAAD6BEF356C3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D63BEE38B6B4EF3413C21DC0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0D940154C8A7DEBD481709EF /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B8BE3D056A8A0A87A0DDE5D0 /* Headers */ = {
+		611F0590FB4A43110C1CF787 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A598D691256669DDAAA376B7 /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h in Headers */,
+				AD3996F363E1BA8A3ABDD3C2 /* Pods-SchemaValidator_Tests-SchemaValidator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09C18729A41F0F3CC4AE1A9 /* Headers */ = {
+		7F2DC30DEB1251F5FA2AD54B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F08BFA23790D38BB2C88C1F /* Pods-SchemaValidator_Tests-umbrella.h in Headers */,
+				379AE5236ACA325CD6630FB7 /* Pods-SchemaValidator_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		54A40D1D526EC19FB36FAF7E /* Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator */ = {
+		1968FC19E620951066086A89 /* Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93EAD3FD3A653FECED834539 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator" */;
+			buildConfigurationList = 63CBECF64B1687D1DFEB9EBF /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator" */;
 			buildPhases = (
-				900E913117C065CF2701516C /* Sources */,
-				8B6349787F3B10637BBF78E5 /* Frameworks */,
-				665E551C3AB29CB0F41A5F05 /* Resources */,
+				364B56C655F16E2D4DFDB5B7 /* Sources */,
+				4078CB39639DF9F644E70263 /* Frameworks */,
+				61CFBF9EBFD4C8FCFE3EB684 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -237,137 +249,141 @@
 			);
 			name = "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator";
 			productName = "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator";
-			productReference = D683444948CAF25157193664 /* SchemaValidator.bundle */;
+			productReference = 5CF778151C270569016137FD /* SchemaValidator.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		9F9804E54499947258FD15A5 /* Pods-SchemaValidator_Tests-SchemaValidator */ = {
+		4FB9B8140C85BF01FD7BC711 /* Pods-SchemaValidator_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5B7B78A785E59E58D173D2 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator" */;
+			buildConfigurationList = EA36AA7001FBE09493C4A019 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests" */;
 			buildPhases = (
-				B2D2890123CD9AF5E89E0F8F /* Sources */,
-				95187B70A294A4F97D0AF3DA /* Frameworks */,
-				6B88841C7C92760530C72A4B /* Resources */,
-				B8BE3D056A8A0A87A0DDE5D0 /* Headers */,
+				42F3E330DC4E9AB5738361C0 /* Sources */,
+				89C38B9BDA4D6CA51939209A /* Frameworks */,
+				7F2DC30DEB1251F5FA2AD54B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				204E859B6B7FEA538FFEAE2D /* PBXTargetDependency */,
-			);
-			name = "Pods-SchemaValidator_Tests-SchemaValidator";
-			productName = "Pods-SchemaValidator_Tests-SchemaValidator";
-			productReference = 6634AA09901708760853B84D /* SchemaValidator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E200946AFE93E904E8F4569E /* Pods-SchemaValidator_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 599ADB8203F3B93EE93F6569 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests" */;
-			buildPhases = (
-				9FE6FB8510D15FFA176950D6 /* Sources */,
-				6545E7BBE0F7232E4CDF0925 /* Frameworks */,
-				F09C18729A41F0F3CC4AE1A9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA344F66F647A181DAD2DFAD /* PBXTargetDependency */,
+				7606CB1AC646C009E60F2D87 /* PBXTargetDependency */,
 			);
 			name = "Pods-SchemaValidator_Tests";
 			productName = "Pods-SchemaValidator_Tests";
-			productReference = C539EA28F5CB605443253685 /* Pods_SchemaValidator_Tests.framework */;
+			productReference = F23C87065F2189803F299E3B /* Pods_SchemaValidator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A6C291DAFDA84A7881D2C0B /* Pods-SchemaValidator_Tests-SchemaValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18838530C96536E52AAB2E9 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator" */;
+			buildPhases = (
+				7F2FE257518E5492955281DE /* Sources */,
+				8D9BD03B8C43460BFFDD46FA /* Frameworks */,
+				83BA2389E46216104435F93A /* Resources */,
+				611F0590FB4A43110C1CF787 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358D82423B65193EAD6B4243 /* PBXTargetDependency */,
+			);
+			name = "Pods-SchemaValidator_Tests-SchemaValidator";
+			productName = "Pods-SchemaValidator_Tests-SchemaValidator";
+			productReference = 808DF68BF50018D294EFEA01 /* SchemaValidator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		721E274F2AFDD8A9D66F5B89 /* Project object */ = {
+		D80B73DADF8AAAB690D96642 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 8011161D918259634D231A61 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 3947D9B0DBA1AF3E7761A7BF /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D30F8696365EEC8350043606;
-			productRefGroup = 754A2762E712172025AA7F14 /* Products */;
+			mainGroup = 1AF38C6100C3C803070751CA;
+			productRefGroup = 6451D569C2DAD7F6D800D27F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E200946AFE93E904E8F4569E /* Pods-SchemaValidator_Tests */,
-				9F9804E54499947258FD15A5 /* Pods-SchemaValidator_Tests-SchemaValidator */,
-				54A40D1D526EC19FB36FAF7E /* Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator */,
+				4FB9B8140C85BF01FD7BC711 /* Pods-SchemaValidator_Tests */,
+				8A6C291DAFDA84A7881D2C0B /* Pods-SchemaValidator_Tests-SchemaValidator */,
+				1968FC19E620951066086A89 /* Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		665E551C3AB29CB0F41A5F05 /* Resources */ = {
+		61CFBF9EBFD4C8FCFE3EB684 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B88841C7C92760530C72A4B /* Resources */ = {
+		83BA2389E46216104435F93A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099F8D8DAC5423871F8FCC57 /* SchemaValidator.bundle in Resources */,
+				4E34E27E36D35EB0C875E6B5 /* SchemaValidator.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		900E913117C065CF2701516C /* Sources */ = {
+		364B56C655F16E2D4DFDB5B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FE6FB8510D15FFA176950D6 /* Sources */ = {
+		42F3E330DC4E9AB5738361C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8FC9F2D40D5C00A9DDF427 /* Pods-SchemaValidator_Tests-dummy.m in Sources */,
+				15C5A4A2CAE078D394E0BEAE /* Pods-SchemaValidator_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2D2890123CD9AF5E89E0F8F /* Sources */ = {
+		7F2FE257518E5492955281DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194C94982DCC3DEE08914D91 /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m in Sources */,
-				C34C449D4DDB83C887766C93 /* ReplaceMe.swift in Sources */,
+				F8B7967D7D39652F0C2935D6 /* DefaultValidators.swift in Sources */,
+				5AFDECB4C9002D03607A63DF /* Pods-SchemaValidator_Tests-SchemaValidator-dummy.m in Sources */,
+				3AD1E971BF40B32113A7CE73 /* SchemaValidator.swift in Sources */,
+				E432ABA2DADE72F35000201B /* Utils.swift in Sources */,
+				4689DCCAFD9CEBC97D444D50 /* ValidationMessages.swift in Sources */,
+				98EDDD0474BC795BC90AB15B /* ValidationRule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		204E859B6B7FEA538FFEAE2D /* PBXTargetDependency */ = {
+		358D82423B65193EAD6B4243 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator";
-			target = 54A40D1D526EC19FB36FAF7E /* Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator */;
-			targetProxy = 2DA3FD234B510F784B88CE54 /* PBXContainerItemProxy */;
+			target = 1968FC19E620951066086A89 /* Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator */;
+			targetProxy = 210A2C984766F1EE0F50AFB2 /* PBXContainerItemProxy */;
 		};
-		DA344F66F647A181DAD2DFAD /* PBXTargetDependency */ = {
+		7606CB1AC646C009E60F2D87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SchemaValidator_Tests-SchemaValidator";
-			target = 9F9804E54499947258FD15A5 /* Pods-SchemaValidator_Tests-SchemaValidator */;
-			targetProxy = 0E43129392B5A32007674EAC /* PBXContainerItemProxy */;
+			target = 8A6C291DAFDA84A7881D2C0B /* Pods-SchemaValidator_Tests-SchemaValidator */;
+			targetProxy = F8A5BC8C17531A85B38842FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA9AC8A868FDC46AF2F66D /* Release */ = {
+		067197F63313AECFA8A14FD0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F29AFAF7150F7CCDFC74F894 /* Pods-SchemaValidator_Tests.release.xcconfig */;
+			baseConfigurationReference = 8C9F0655019FA04BD7E5CC35 /* Pods-SchemaValidator_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -394,7 +410,104 @@
 			};
 			name = Release;
 		};
-		1A0001FC6A836EF5B25534CD /* Debug */ = {
+		2B63B1F4D3E8E92492200EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE9B15F4607203691B58BC3 /* Pods-SchemaValidator_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SchemaValidator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SchemaValidator_Tests/Pods-SchemaValidator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SchemaValidator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38E3A976DC529DAFFC337047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SchemaValidator_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SchemaValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3D59F5EB020FB6F1EC2F8EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89ACD44A628BEFC83F6278F /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SchemaValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E0C6BE65808D9ACD93A80EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89ACD44A628BEFC83F6278F /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SchemaValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		828F7D7861D2D094B9F2FFC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -433,7 +546,19 @@
 			};
 			name = Debug;
 		};
-		1D79CB5359AB9CAF2C39753B /* Release */ = {
+		9ABF37C6D48CA2E52DA3BACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SchemaValidator_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SchemaValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A66D2E36BA6558967020544C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -467,155 +592,46 @@
 			};
 			name = Release;
 		};
-		90C6566D06D4857C0CCBA321 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SchemaValidator_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SchemaValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		997DA19B2F6E4AC2575D8A38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83E52A7810BDE4389B0C083B /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SchemaValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C0EF3D35F7AC0C38C08B41C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B16B118D06C9C05A26DCB66 /* Pods-SchemaValidator_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SchemaValidator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SchemaValidator_Tests/Pods-SchemaValidator_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SchemaValidator_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C4E880AFCEBBA40E4196D8AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SchemaValidator_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SchemaValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DBEE7E4B3700D3C1CEA3C8F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83E52A7810BDE4389B0C083B /* Pods-SchemaValidator_Tests-SchemaValidator-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SchemaValidator_Tests-SchemaValidator/Pods-SchemaValidator_Tests-SchemaValidator.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SchemaValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F5B7B78A785E59E58D173D2 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator" */ = {
+		3947D9B0DBA1AF3E7761A7BF /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBEE7E4B3700D3C1CEA3C8F3 /* Debug */,
-				997DA19B2F6E4AC2575D8A38 /* Release */,
+				828F7D7861D2D094B9F2FFC1 /* Debug */,
+				A66D2E36BA6558967020544C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		599ADB8203F3B93EE93F6569 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests" */ = {
+		63CBECF64B1687D1DFEB9EBF /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0EF3D35F7AC0C38C08B41C7 /* Debug */,
-				03CA9AC8A868FDC46AF2F66D /* Release */,
+				9ABF37C6D48CA2E52DA3BACA /* Debug */,
+				38E3A976DC529DAFFC337047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8011161D918259634D231A61 /* Build configuration list for PBXProject "Pods" */ = {
+		B18838530C96536E52AAB2E9 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A0001FC6A836EF5B25534CD /* Debug */,
-				1D79CB5359AB9CAF2C39753B /* Release */,
+				3D59F5EB020FB6F1EC2F8EA0 /* Debug */,
+				7E0C6BE65808D9ACD93A80EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93EAD3FD3A653FECED834539 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests-SchemaValidator-SchemaValidator" */ = {
+		EA36AA7001FBE09493C4A019 /* Build configuration list for PBXNativeTarget "Pods-SchemaValidator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90C6566D06D4857C0CCBA321 /* Debug */,
-				C4E880AFCEBBA40E4196D8AA /* Release */,
+				2B63B1F4D3E8E92492200EFD /* Debug */,
+				067197F63313AECFA8A14FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 721E274F2AFDD8A9D66F5B89 /* Project object */;
+	rootObject = D80B73DADF8AAAB690D96642 /* Project object */;
 }

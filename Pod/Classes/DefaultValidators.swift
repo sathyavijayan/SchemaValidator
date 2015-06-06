@@ -43,7 +43,7 @@ extension SchemaValidator {
         if let o:AnyObject = obj {
             return  (true, nil)
         } else {
-            return  (false, ValidationMessages.message(forKey: "Present"))
+            return  (false, SchemaValidator.messageProvider(forKey: "Present"))
         }
     }
     
@@ -73,7 +73,7 @@ extension SchemaValidator {
             isEmpty = true
         }
         
-        var result:(Bool,String?) = (!isEmpty, (!isEmpty) ? nil: ValidationMessages.message(forKey: "NotEmpty"))
+        var result:(Bool,String?) = (!isEmpty, (!isEmpty) ? nil: SchemaValidator.messageProvider(forKey: "NotEmpty"))
         
         return result
     }
@@ -103,7 +103,7 @@ extension SchemaValidator {
             isInt = contains(intTypes, numberType) ? true : false
         }
         
-        return (isInt, (isInt) ? nil: ValidationMessages.message(forKey: "Integer"))
+        return (isInt, (isInt) ? nil: SchemaValidator.messageProvider(forKey: "Integer"))
     }
     
     /**
@@ -115,7 +115,7 @@ extension SchemaValidator {
         if let n:NSNumber = (obj as? NSNumber) {
             return  (true, nil)
         } else {
-            return (false, ValidationMessages.message(forKey: "Numeric"))
+            return (false, SchemaValidator.messageProvider(forKey: "Numeric"))
         }
     }
     
@@ -133,7 +133,7 @@ extension SchemaValidator {
                     return (true, nil)
                 }
             }
-            var msg = ValidationMessages.message(forKey: "Equals")
+            var msg = SchemaValidator.messageProvider(forKey: "Equals")
             return  (false, "\(msg) \(value).")
         }
     }
@@ -170,7 +170,7 @@ extension SchemaValidator {
         if result.0 {
             return (result.0, nil)
         } else {
-            return (result.0, (ValidationMessages.message(forKey: "URL")))
+            return (result.0, (SchemaValidator.messageProvider(forKey: "URL")))
         }
     }
     
@@ -189,7 +189,7 @@ extension SchemaValidator {
         if result.0 {
             return (result.0, nil)
         } else {
-            return (result.0, ValidationMessages.message(forKey: "Email"))
+            return (result.0, SchemaValidator.messageProvider(forKey: "Email"))
         }
     }
     
@@ -220,7 +220,7 @@ extension SchemaValidator {
                 }
             }
             
-            var msg = ValidationMessages.message(forKey: "Size")
+            var msg = SchemaValidator.messageProvider(forKey: "Size")
             var result:(Bool,String?) = (isOfSize, (!isOfSize) ? "\(msg) \(size)" : nil)
             
             return result
@@ -240,12 +240,13 @@ extension SchemaValidator {
             var isBetween = false
             
             if let n:NSNumber = obj as? NSNumber {
-                if (n <= start && n >= end) {
+                NSLog("%%%%%$$$$ \(n)   \(obj)")
+                if (n >= start && n <= end) {
                     isBetween = true
                 }
             }
             
-            var message:String = ValidationMessages.message(forKey: "Between")
+            var message:String = SchemaValidator.messageProvider(forKey: "Between")
             
             var result:(Bool,String?) = (isBetween, (!isBetween) ?
                 "\(message) \(start) & \(end)" : nil)
@@ -271,7 +272,7 @@ extension SchemaValidator {
                 isLessThan = (n < value) ? true : false
             }
             
-            var message:String = ValidationMessages.message(forKey: "Less")
+            var message:String = SchemaValidator.messageProvider(forKey: "Less")
 
             var result:(Bool,String?) = (isLessThan, (!isLessThan) ?
                 "\(message) \(value)" : nil)
@@ -296,7 +297,7 @@ extension SchemaValidator {
                 isLessThanEqual = (n <= value) ? true : false
             }
             
-            var message:String = ValidationMessages.message(forKey: "LessOrEqual")
+            var message:String = SchemaValidator.messageProvider(forKey: "LessOrEqual")
             
             var result:(Bool,String?) = (isLessThanEqual, (!isLessThanEqual) ?
                 "\(message) \(value)" : nil)
@@ -321,7 +322,7 @@ extension SchemaValidator {
                 isGreaterThan = (n > value) ? true : false
             }
             
-            var message:String = ValidationMessages.message(forKey: "Greater")
+            var message:String = SchemaValidator.messageProvider(forKey: "Greater")
             
             var result:(Bool,String?) = (isGreaterThan, (!isGreaterThan) ?
                 "\(message) \(value)" : nil)
@@ -346,7 +347,7 @@ extension SchemaValidator {
                 isGreaterThanOrEqual = (n >= value) ? true : false
             }
             
-            var message:String = ValidationMessages.message(forKey: "GreaterOrEqual")
+            var message:String = SchemaValidator.messageProvider(forKey: "GreaterOrEqual")
             
             var result:(Bool,String?) = (isGreaterThanOrEqual, (!isGreaterThanOrEqual) ?
                 "\(message) \(value)" : nil)

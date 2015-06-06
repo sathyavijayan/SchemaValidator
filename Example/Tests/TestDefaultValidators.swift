@@ -27,7 +27,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertFalse(V.Present(nil).0, "Presence for Nil")
         XCTAssertTrue(V.Present("Hello").0, "Presence for a String")
         XCTAssertTrue(V.Present([1,2,3]).0, "Presence for an array")
-        XCTAssertEqual(V.Present(nil).1!, ValidationMessages.message(forKey: "Present"), "Error message for Presence")
+        XCTAssertEqual(V.Present(nil).1!, SchemaValidator.messageProvider(forKey: "Present"), "Error message for Presence")
     }
     
     func testNotEmpty() {
@@ -41,7 +41,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertTrue(V.NotEmpty("sathya").0, "Not Empty for String")
         XCTAssertTrue(V.NotEmpty(Set([1,2,3])).0, "Not Empty for Set")
         
-        XCTAssertEqual(V.NotEmpty(nil).1!, ValidationMessages.message(forKey: "NotEmpty"), "Error message for not empty")
+        XCTAssertEqual(V.NotEmpty(nil).1!, SchemaValidator.messageProvider(forKey: "NotEmpty"), "Error message for not empty")
 
     }
     
@@ -53,7 +53,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertFalse(V.Integer("Dummy").0, "Integer for a string type")
 
         XCTAssertTrue(V.Integer(12).0, "Integer for a Int type")
-        XCTAssertEqual(V.Integer([1,2,3]).1!, ValidationMessages.message(forKey: "Integer"), "Error message for integer")
+        XCTAssertEqual(V.Integer([1,2,3]).1!, SchemaValidator.messageProvider(forKey: "Integer"), "Error message for integer")
     }
     
     
@@ -64,7 +64,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertTrue(V.Numeric(5).0, "Numeric for int type")
         XCTAssertTrue(V.Numeric(5.6).0, "Numeric for decimal type")
         XCTAssertTrue(V.Numeric(NSNumber(float: 5.9)).0, "Numeric for decimal type wrapped in NSNumber")
-        XCTAssertEqual(V.Numeric([1,2,3]).1!, ValidationMessages.message(forKey: "Numeric"), "Error message for Numeric")
+        XCTAssertEqual(V.Numeric([1,2,3]).1!, SchemaValidator.messageProvider(forKey: "Numeric"), "Error message for Numeric")
     }
     
     func testEqual() {
@@ -78,7 +78,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertTrue(V.Equals(1)(1.0).0, "Equality of numbers")
         XCTAssertTrue(V.Equals([1, 2, 3])([1, 2, 3]).0, "Equality of array")
         XCTAssertTrue(V.Equals([1: "One", 2: "Two"])([1: "One", 2: "Two"]).0, "Equality of array")
-        var range:Range? = V.Equals([1,2,3])(5).1!.rangeOfString(ValidationMessages.message(forKey: "Equals"), options: nil, range: nil, locale: nil)
+        var range:Range? = V.Equals([1,2,3])(5).1!.rangeOfString(SchemaValidator.messageProvider(forKey: "Equals"), options: nil, range: nil, locale: nil)
         XCTAssertTrue((range != nil), "Error message for Equals")
     }
     
@@ -105,7 +105,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertTrue(V.Regex("^Hello")("Hello World").0, "Regex for correct string")
         XCTAssertFalse(V.Regex("^Hello")(5).0, "Regex for incorrect type")
         
-        var range:Range? = V.Regex("^Hello")(5).1!.rangeOfString(ValidationMessages.message(forKey: "Regex"), options: nil, range: nil, locale: nil)
+        var range:Range? = V.Regex("^Hello")(5).1!.rangeOfString(SchemaValidator.messageProvider(forKey: "Regex"), options: nil, range: nil, locale: nil)
         XCTAssertTrue((range != nil), "Error message for Regex")
     }
     
@@ -134,7 +134,7 @@ class TestDefaultValidators: XCTestCase {
         
         XCTAssertFalse(contains(results_invalid, true), "Email for invalid emails")
         
-        XCTAssertEqual(V.Email("dummy").1!, ValidationMessages.message(forKey: "Email"), "Error message for Email")
+        XCTAssertEqual(V.Email("dummy").1!, SchemaValidator.messageProvider(forKey: "Email"), "Error message for Email")
     }
     
     func testURL() {
@@ -163,7 +163,7 @@ class TestDefaultValidators: XCTestCase {
         
         XCTAssertFalse(contains(results_invalid, true), "URL for invalid URLs")
         
-        XCTAssertEqual(V.URL("1#!dummy").1!, ValidationMessages.message(forKey: "URL"), "Error message for URL")
+        XCTAssertEqual(V.URL("1#!dummy").1!, SchemaValidator.messageProvider(forKey: "URL"), "Error message for URL")
     }
     
     func testBetween() {
@@ -177,7 +177,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertFalse(V.Between(1.56, and: 10)(1.55).0, "Between for invalid double")
         XCTAssertTrue(V.Between(6.6, and: 10)(8.6).0, "Between for valid double")
         
-        var range:Range? = V.Between(1, and: 10)("string").1!.rangeOfString(ValidationMessages.message(forKey: "Between"), options: nil, range: nil, locale: nil)
+        var range:Range? = V.Between(1, and: 10)("string").1!.rangeOfString(SchemaValidator.messageProvider(forKey: "Between"), options: nil, range: nil, locale: nil)
         XCTAssertTrue((range != nil), "Error message for Between")
     }
     
@@ -195,7 +195,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertTrue(V.Greater(5.5)(5.6).0, "Greater for bigger double")
 
 
-        var range:Range? = V.Greater(5)(nil).1!.rangeOfString(ValidationMessages.message(forKey: "Greater"), options: nil, range: nil, locale: nil)
+        var range:Range? = V.Greater(5)(nil).1!.rangeOfString(SchemaValidator.messageProvider(forKey: "Greater"), options: nil, range: nil, locale: nil)
         XCTAssertTrue((range != nil), "Error message for Greater")
     }
 
@@ -213,7 +213,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertTrue(V.GreaterOrEqual(5.5)(5.6).0, "Greater for bigger double")
         
         
-        var range:Range? = V.GreaterOrEqual(5)(nil).1!.rangeOfString(ValidationMessages.message(forKey: "GreaterOrEqual"), options: nil, range: nil, locale: nil)
+        var range:Range? = V.GreaterOrEqual(5)(nil).1!.rangeOfString(SchemaValidator.messageProvider(forKey: "GreaterOrEqual"), options: nil, range: nil, locale: nil)
         XCTAssertTrue((range != nil), "Error message for GreaterOrEqual")
     }
 
@@ -231,7 +231,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertFalse(V.Less(5.5)(5.6).0, "Less for bigger double")
         
         
-        var range:Range? = V.Less(5)(nil).1!.rangeOfString(ValidationMessages.message(forKey: "Less"), options: nil, range: nil, locale: nil)
+        var range:Range? = V.Less(5)(nil).1!.rangeOfString(SchemaValidator.messageProvider(forKey: "Less"), options: nil, range: nil, locale: nil)
         XCTAssertTrue((range != nil), "Error message for Less")
     }
 
@@ -249,7 +249,7 @@ class TestDefaultValidators: XCTestCase {
         XCTAssertFalse(V.LessOrEqual(5.5)(5.6).0, "Less for bigger double")
         
         
-        var range:Range? = V.LessOrEqual(5)(nil).1!.rangeOfString(ValidationMessages.message(forKey: "LessOrEqual"), options: nil, range: nil, locale: nil)
+        var range:Range? = V.LessOrEqual(5)(nil).1!.rangeOfString(SchemaValidator.messageProvider(forKey: "LessOrEqual"), options: nil, range: nil, locale: nil)
         XCTAssertTrue((range != nil), "Error message for LessOrEqual")
     }
 }

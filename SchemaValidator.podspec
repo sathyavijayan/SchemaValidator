@@ -10,19 +10,17 @@
 Pod::Spec.new do |s|
   s.name             = "SchemaValidator"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SchemaValidator."
+  s.summary          = "Schema based library to validate JSON like objects for Swift."
   s.description      = <<-DESC
-                       An optional longer description of SchemaValidator
+                        You can use SchemaValidator to validate JSON like dictionary objects (for eg: anything that conforms to [NSObject:AnyObject] in Swift.
+                        See README for more detail and usage.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SchemaValidator"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/sathyavijayan/SchemaValidator"
   s.license          = 'MIT'
   s.author           = { "Sathyavijayan Vittal" => "sathyavijayan@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SchemaValidator.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/sathyavijayan/SchemaValidator.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -32,7 +30,4 @@ Pod::Spec.new do |s|
     'SchemaValidator' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
