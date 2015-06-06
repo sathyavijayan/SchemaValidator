@@ -15,7 +15,6 @@
 		5717A17A1B20B10F0089885A /* TestDefaultValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717A1791B20B10F0089885A /* TestDefaultValidators.swift */; };
 		5717A17C1B22047D0089885A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717A17B1B22047D0089885A /* Utils.swift */; };
 		5717A17E1B220D310089885A /* TestSchemaValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717A17D1B220D310089885A /* TestSchemaValidator.swift */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +27,9 @@
 		5717A1771B208FFB0089885A /* DefaultValidators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultValidators.swift; path = ../Pod/Classes/DefaultValidators.swift; sourceTree = "<group>"; };
 		5717A1791B20B10F0089885A /* TestDefaultValidators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDefaultValidators.swift; sourceTree = "<group>"; };
 		5717A17B1B22047D0089885A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../Pod/Classes/Utils.swift; sourceTree = "<group>"; };
-		5717A17D1B220D310089885A /* TestSchemaValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestSchemaValidator.swift; path = Tests/TestSchemaValidator.swift; sourceTree = "<group>"; };
+		5717A17D1B220D310089885A /* TestSchemaValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSchemaValidator.swift; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SchemaValidator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchemaValidator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6127D86BB61DD08A12C38A4D /* Pods-SchemaValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchemaValidator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SchemaValidator_Tests/Pods-SchemaValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B32A7B4CD0DCF360729AFF4 /* SchemaValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SchemaValidator.podspec; path = ../SchemaValidator.podspec; sourceTree = "<group>"; };
 		E431B9125F1D661258371DFF /* Pods_SchemaValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SchemaValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +58,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				5717A17D1B220D310089885A /* TestSchemaValidator.swift */,
 				5717A17B1B22047D0089885A /* Utils.swift */,
 				5717A1771B208FFB0089885A /* DefaultValidators.swift */,
 				5717A1751B208E920089885A /* ValidationMessages.swift */,
@@ -85,7 +82,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				5717A17D1B220D310089885A /* TestSchemaValidator.swift */,
 				5717A1791B20B10F0089885A /* TestDefaultValidators.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -153,7 +150,6 @@
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -243,7 +239,6 @@
 				5717A1721B2089140089885A /* ValidationRule.swift in Sources */,
 				5717A17E1B220D310089885A /* TestSchemaValidator.swift in Sources */,
 				5717A17C1B22047D0089885A /* Utils.swift in Sources */,
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 				5717A1781B208FFB0089885A /* DefaultValidators.swift in Sources */,
 				5717A1701B2088FD0089885A /* SchemaValidator.swift in Sources */,
 			);
@@ -348,7 +343,6 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchemaValidator_Example.app/SchemaValidator_Example";
 			};
 			name = Debug;
 		};
@@ -363,7 +357,6 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchemaValidator_Example.app/SchemaValidator_Example";
 			};
 			name = Release;
 		};
